@@ -10,19 +10,17 @@ pygmentsUseClasses = true
   author = "Krishna Kalesh"
   description = "In solitude, where we are least alone."
   github = "krishnakalesh"
-  facebook = "krishnakalesh"
-  twitter = "krishnakalesh"
+  facebook = "criskalesh"
+  twitter = "criskalesh"
   linkedin = "krishnakalesh"
-  instagram = "krishnakalesh"
-  tumblr = "krishnakalesh"
   email = "krishnakaleshb@gmail.com"
   keywords = "blog, google analytics"
   rss = true
   lastmod = true
   userStatusEmoji = "😀"
-  favicon = "/images/github.png"
-  avatar = "/images/avatar.png"
-  headerIcon = "/images/GitHub-Mark-Light-32px.png"
+  favicon = "/pinchofcode/images/github.png"
+  avatar = "/pinchofcode/images/avatar.png"
+  headerIcon = "/pinchofcode/images/GitHub-Mark-Light-32px.png"
   location = "India"
   enableGitalk = true
 
@@ -45,7 +43,7 @@ pygmentsUseClasses = true
   [[params.links]]
     title = "Link2"
     href = "https://krishnakalesh.com"
-    icon = "/images/avatar.png"
+    icon = "/pinchofcode/images/avatar.png"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
