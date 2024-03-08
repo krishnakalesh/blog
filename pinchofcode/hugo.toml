@@ -1,0 +1,51 @@
+baseURL = 'https://krishnakalesh.github.io/pinchofcode/'
+languageCode = 'en-us'
+title = 'Pinch of Code'
+theme = "github-style"
+googleAnalytics = ""
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Krishna Kalesh"
+  description = "In solitude, where we are least alone."
+  github = "krishnakalesh"
+  facebook = "krishnakalesh"
+  twitter = "krishnakalesh"
+  linkedin = "krishnakalesh"
+  instagram = "krishnakalesh"
+  tumblr = "krishnakalesh"
+  email = "krishnakaleshb@gmail.com"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "😀"
+  favicon = "/images/github.png"
+  avatar = "/images/avatar.png"
+  headerIcon = "/images/GitHub-Mark-Light-32px.png"
+  location = "India"
+  enableGitalk = true
+
+  [params.gitalk]
+    clientID = "Your client ID"
+    clientSecret = "Your client secret"
+    repo = "repo"
+    owner = "krishnakalesh"
+    admin = "krishnakalesh"
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 15
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/krishnakalesh"
+  [[params.links]]
+    title = "Link2"
+    href = "https://krishnakalesh.com"
+    icon = "/images/avatar.png"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]

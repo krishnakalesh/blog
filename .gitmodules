@@ -1,0 +1,7 @@
+[submodule "pinchofcode/themes/github-style"]
+	path = pinchofcode/themes/github-style
+	url = git@github.com:MeiK2333/github-style.git
+[submodule "pinchofcode/public"]
+	path = pinchofcode/public
+	url = https://github.com/krishnakalesh/pinchofcode.git
+	branch = main
