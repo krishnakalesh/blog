@@ -25,16 +25,16 @@ pygmentsUseClasses = true
   enableGitalk = true
 
   [params.gitalk]
-    clientID = "Your client ID"
-    clientSecret = "Your client secret"
-    repo = "repo"
+    clientID = "1797648028c1f1a543f9"
+    clientSecret = "39589f861950278dc7d6b2fb66ceccf346009a96"
+    repo = "pinchofcode"
     owner = "krishnakalesh"
     admin = "krishnakalesh"
     id = "location.pathname"
     labels = "gitalk"
     perPage = 15
     pagerDirection = "last"
-    createIssueManually = true
+    createIssueManually = false
     distractionFreeMode = false
 
   [[params.links]]
